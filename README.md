@@ -18,6 +18,3 @@ These are some of my hobbies:
 Here is a link to our 545 course page for easy access
 [STAT545](http://stat545.com/index.html)  
 And a comic strip to brighten your day    ![](http://phdcomics.com/comics/archive/phd091212s.gif)
-
-
-
