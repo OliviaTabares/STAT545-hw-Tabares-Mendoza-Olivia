@@ -1,0 +1,18 @@
+---
+title: "Hw01_gapminder"
+output: github_document
+---
+**Exploratory analyses of the Gapminder base**  
+First and foremost I need to load the tidyverse pacakge and the gapminder base  
+```{r}
+library(tidyverse)
+library(gapminder)
+head(gapminder)
+tail(gapminder)
+```
+After examining the base, I am interested in exploring if there is a relationship between the GDP per Capita and the life expectancy of a person
+```{r}
+plot(gapminder$gdpPercap,gapminder$lifeExp)
+cor.test(gapminder$gdpPercap,gapminder$lifeExp)
+```
+plot reveals a positive relation between the two variables that is confirmed with a pearson's correlation test (t=29.65, p< 0.01) the correlation coefficient is 0.58 meaning a positive, relatively strong relation. 
