@@ -2,9 +2,9 @@
 
 **This is a repository created to hold the homeworks of the STAT 545 class**
 
-[Homework 1] ( )
+[Homework 1](https://github.com/OliviaTabares/STAT545-hw-Tabares-Mendoza-Olivia/tree/master/hw_01 ) 
 
-[Homerwork 2]( )    
+[Homerwork 2](https://github.com/OliviaTabares/STAT545-hw-Tabares-Mendoza-Olivia/tree/master/hw_02)    
 
    
    
