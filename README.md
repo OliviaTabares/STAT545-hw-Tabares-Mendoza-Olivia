@@ -1,10 +1,10 @@
 ##About this repository and myself
 
-**This is a repository created to hold the homeworks of the STAT 545 class**
+**This is a repository created to hold the homework 1 of the STAT 545 class**
 
 [Homework 1](https://github.com/OliviaTabares/STAT545-hw-Tabares-Mendoza-Olivia/tree/master/hw_01 ) 
 
-[Homerwork 2](https://github.com/OliviaTabares/STAT545-hw-Tabares-Mendoza-Olivia/tree/master/hw_02)    
+    
 
    
    
