@@ -128,7 +128,9 @@ p2<-ggplot(gapminder,aes(x=continent,y=pop))+geom_boxplot(fill="blue")+labs(x="C
 p2
 ```
 
-![](hw02_gapminder_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png) Asia has the most outlayers which probably correspond to data of China and India
+![](hw02_gapminder_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png)
+
+Asia has the most outlayers which probably correspond to data of China and India
 We can also explore how the GDP per capita has behaved through the years across continents
 
 ``` r
