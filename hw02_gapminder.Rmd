@@ -6,6 +6,7 @@ output: github_document
 
 ***
 **Explore the structure of the gapminder object**  
+
 The gapminder object has three classes: tibble diff(tbl_df),tbl and data.frame, so it is essentially a tibble: a dataframe with better formatting and visualization than a regular dataframe (object created with as.data.frame function) [pacakge tibble reference](https://cran.r-project.org/web/packages/tibble/tibble.pdf)  
 ```{r}
 library(tidyverse)
@@ -27,6 +28,7 @@ Information of lapply function was obtained from [stackoverflow](https://stackov
 
 ***  
 **Explore individual variables and build plots with ggplot**   
+
 I explored all the variables with the summary function
 ```{r}
 summary(gapminder)
@@ -57,7 +59,8 @@ p3
 ```  
 
 GDP per capita has a positive trend through the years, although for the Americas, Europe and Asia this growth is bigger than in Africa specially for 2000 and further. It is interesting to see how contients had a similar GDP in the fifties but since then they have shifted appart.  
-**Use of piping, filter and select functions**    
+**Use of piping, filter and select functions**   
+
 Considering the data from the plot above, it comes into attention that Asia has some interesting outlayers, that I will explore by using the functions filter and select and then plot the results
 ```{r}
 filter(gapminder,continent=="Asia")%>%
