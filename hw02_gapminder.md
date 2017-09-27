@@ -136,7 +136,9 @@ p3<-ggplot(gapminder,aes(x=year,y=gdpPercap,color=continent))+geom_jitter()+labs
 p3
 ```
 
-![](hw02_gapminder_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png) GDP per capita has a positive trend through the years, although for the Americas, Europe and Asia this growth is bigger than in Africa specially for 2000 and further. It is interesting to see how contients had a similar GDP in the fifties but since then they have shifted appart.
+![](hw02_gapminder_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+
+GDP per capita has a positive trend through the years, although for the Americas, Europe and Asia this growth is bigger than in Africa specially for 2000 and further. It is interesting to see how contients had a similar GDP in the fifties but since then they have shifted appart.
 **Use of piping, filter and select functions**
 Considering the data from the plot above, it comes into attention that Asia has some interesting outlayers, that I will explore by using the functions filter and select and then plot the results
 
@@ -147,4 +149,6 @@ filter(gapminder,continent=="Asia")%>%
   ggplot(aes(x=country, y=gdpPercap,size=year))+geom_point(alpha=0.25,color="blue")+labs(x="Country",y="GDP per capita")
 ```
 
-![](hw02_gapminder_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png) It make sense that emerging world powers such as China and Japan had large GDPs in the 2000s as they secured new markets and invested in new technologies. The highest GDP per capita belongs to Kuwait in the 1960s, in that decade Kuwait became the largest oil exporter of the region attaining massive wealth and also attracting foreing investment.[History of Kuwait](https://en.wikipedia.org/wiki/History_of_Kuwait)
+![](hw02_gapminder_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
+
+It make sense that emerging world powers such as China and Japan had large GDPs in the 2000s as they secured new markets and invested in new technologies. The highest GDP per capita belongs to Kuwait in the 1960s, in that decade Kuwait became the largest oil exporter of the region attaining massive wealth and also attracting foreing investment.[History of Kuwait](https://en.wikipedia.org/wiki/History_of_Kuwait)
