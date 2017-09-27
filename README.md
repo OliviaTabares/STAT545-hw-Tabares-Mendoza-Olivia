@@ -1,4 +1,4 @@
-#About this repository and myself
+##About this repository and myself
 
 **This is a repository created to hold the homeworks of the STAT 545 class**
 
